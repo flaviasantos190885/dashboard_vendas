@@ -9,9 +9,9 @@ Original file is located at
 #Principal
 """
 
-!pip install dash
-!pip install dash-bootstrap-components
-!pip install plotly
+# !pip install dash
+# !pip install dash-bootstrap-components
+# !pip install plotly
 
 import pandas as pd
 import plotly.express as px
