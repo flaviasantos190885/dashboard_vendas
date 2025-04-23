@@ -90,6 +90,8 @@ app = dash.Dash(__name__, external_stylesheets = [dbc.themes.SOLAR],
                                         meta_tags=[ {'name': 'viewport',
                                                     'content': 'width=device-width, initial-scale=1.0'}  ] )
 
+server = app.server
+
 app.layout = dbc.Container([   #caixa -> matriz (linha x coluna) onde serão construídos os gráficos
 
     #primeira linha -> linha do cabeçalho
