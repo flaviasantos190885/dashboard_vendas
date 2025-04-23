@@ -30,7 +30,7 @@ dash.__version__
 dbc.__version__
 
 # https://www.kaggle.com/kyanyoga/sample-sales-data
-df = pd.read_csv('/content/sales_data_sample.csv',encoding = 'latin-1')
+df = pd.read_csv('sales_data_sample.csv',encoding = 'latin-1')
 
 global_df = df.copy()
 
